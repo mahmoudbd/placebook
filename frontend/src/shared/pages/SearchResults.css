@@ -1,0 +1,37 @@
+.card.search-not-found {
+  text-align: center;
+  padding: 40px;
+  margin: 30px auto;
+  max-width: 70%;
+}
+.padding-y {
+  padding-top: 74px;
+  padding-bottom: 20px;
+}
+div.margin-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+h2.unvisibleHeader {
+  display: none;
+}
+@media (min-width: 576px) {
+  .card.search-not-found {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card.search-not-found {
+    max-width: 40%;
+  }
+  .padding-y {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .card.search-not-found {
+    max-width: 30%;
+  }
+}

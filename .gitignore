@@ -1,0 +1,4 @@
+node_modules
+nodemon
+nodemon.json
+**/node_modules

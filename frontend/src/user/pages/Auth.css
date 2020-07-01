@@ -1,0 +1,72 @@
+.authentication__header {
+	color: white;
+	text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin-top: 0rem  ;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.authentication form {
+	margin-bottom: 1rem;
+}
+
+.my-facebook-button-class {
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color .3s, border-color .3s;
+	background-color: #4c69ba;
+	border: calc(.06887vw + .67769px) solid #4c69ba;
+	padding: calc(.34435vw + 7.38843px) calc(.34435vw + 8.38843px);
+	margin-right: 14px;
+	border-radius: 4px;
+}
+.my-facebook-button-class:hover,
+.my-facebook-button-class:active {
+	color: #4c69ba;
+	background: #fff;
+}
+.my-google-button-class {
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color .3s, border-color .3s;
+	background-color: #e73537;
+	border: calc(.06887vw + .67769px) solid #e73537;
+	padding: calc(.34435vw + 7.38843px) calc(.34435vw + 15.58843px);
+	margin-right: 14px;
+	border-radius: 4px;
+}
+.my-google-button-class:hover,
+.my-google-button-class:active {
+	color: #e73537;
+	background: #fff;
+}
+@media (max-width:375px){
+
+  .authentication {
+    max-width: 20rem;
+    margin-top: 1.25rem ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}

@@ -1,0 +1,88 @@
+.dd-wrapper{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.dd-header{
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+
+}
+
+.dd-header:hover,
+.dd-header:active {
+    color: black;
+    background: #f8df00;
+    color: #292929;
+    border-color: #292929;
+    border: 0.1px solid;
+
+  }
+
+.dd-list-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 3rem;
+
+    
+}
+
+
+.dd-list{
+    padding: 0;
+    width: 110%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+  @media (max-width: 768px) {
+    .dd-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        z-index: 0;
+    
+    }
+
+    .dd-list-container{
+        position: relative;
+        top:0;
+    }
+    .dd-list{
+        text-align: center;
+        width:100%;
+        margin: 0.5rem;
+        margin-bottom: 0;
+        padding: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        z-index: 0;
+    
+    }
+
+    .dd-header{
+        text-align: center;
+        color: black;
+        cursor: pointer;
+        padding: 0.5rem;
+        z-index: 0;
+    }
+   
+    
+
+    
+    
+  }
+  
+  
+  

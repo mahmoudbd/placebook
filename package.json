@@ -1,0 +1,51 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"server": "nodemon app.js",
+		"dev": "concurrently \" npm run server\" \" cd frontend && npm start\" "
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.28",
+		"@fortawesome/free-brands-svg-icons": "^5.13.1",
+		"@fortawesome/free-regular-svg-icons": "^5.13.0",
+		"@fortawesome/free-solid-svg-icons": "^5.13.0",
+		"@fortawesome/react-fontawesome": "^0.1.10",
+		"axios": "^0.19.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cloudinary": "^1.22.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-validator": "^6.2.0",
+		"jsonwebtoken": "^8.5.1",
+		"method-override": "^3.0.0",
+		"moment": "^2.26.0",
+		"mongoose": "^5.7.8",
+		"mongoose-unique-validator": "^2.0.3",
+		"multer": "^1.4.2",
+		"multer-storage-cloudinary": "^4.0.0",
+		"passport": "^0.4.1",
+		"passport-facebook": "^3.0.0",
+		"react-moment": "^0.9.7",
+		"react-onclickoutside": "^6.9.0",
+		"uuid": "^3.3.3"
+	},
+	"devDependencies": {
+		"concurrently": "^5.2.0",
+		"nodemon": "^2.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HackYourFuture/class25-project.git"
+	},
+	"bugs": {
+		"url": "https://github.com/HackYourFuture/class25-project/issues"
+	},
+	"homepage": "https://github.com/HackYourFuture/class25-project#readme"
+}

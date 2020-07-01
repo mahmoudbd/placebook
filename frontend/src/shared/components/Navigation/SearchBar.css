@@ -1,0 +1,131 @@
+form.searchForm {
+  text-align: center;
+  display: none;
+}
+form.searchMobileForm {
+  display: block;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background: white;
+}
+.searchForm input.search-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #4d4d4d;
+  color: #4d4d4d;
+  width: calc(100% - 40px);
+  padding: 0;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  margin-left: 0px;
+}
+.searchMobileForm input.search-input {
+  width: calc(100% - 44px);
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  padding-left: 40px;
+  color: #4d4d4d;
+}
+input.search-input:focus {
+  outline: none;
+}
+input.search-input::placeholder {
+  color: #4d4d4d;
+  opacity: 1; /* Firefox */
+  font-style: italic;
+}
+
+input.search-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+input.search-input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #4d4d4d;
+}
+span.search-emoji {
+  padding: 0;
+  margin: 0;
+}
+button.search {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #4d4d4d;
+  padding: 0;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  margin-right: 0px;
+  color: #4d4d4d;
+  padding-right: 5px;
+}
+.searchMobileForm button.search {
+  border: none;
+  font-size: 1.3rem;
+}
+button.search:hover {
+  cursor: pointer;
+}
+button.search:disabled {
+  cursor: not-allowed;
+  color: rgba(77, 77, 77, 0.5);
+}
+button.search:focus {
+  outline: none;
+}
+button.search.mobile {
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 10px;
+}
+
+@media (min-width: 576px) {
+  input.search-input {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  form.searchForm {
+    display: block;
+  }
+  span.search-emoji.mobile {
+    display: none;
+  }
+  form.searchMobileForm {
+    display: none;
+  }
+  .searchForm input.search-input {
+    width: 70px;
+    margin-left: 10px;
+  }
+  form.searchForm {
+    text-align: right;
+  }
+  button.search {
+    margin-right: 10px;
+  }
+}
+@media (min-width: 800px) {
+  .searchForm input.search-input {
+    width: 100px;
+  }
+}
+@media (min-width: 860px) {
+  .searchForm input.search-input {
+    width: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .searchForm input.search-input {
+    width: 270px;
+  }
+}
