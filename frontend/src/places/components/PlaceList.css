@@ -1,0 +1,13 @@
+.place-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 0;
+  width: 90%;
+  max-width: 40rem;
+}
+
+@media (min-width: 768px) {             /* please don't change it*/
+  .place-list {
+    margin: 1rem auto;
+  }
+}

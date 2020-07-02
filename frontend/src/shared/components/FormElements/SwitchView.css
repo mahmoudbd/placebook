@@ -1,0 +1,68 @@
+.switch {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background: #ff0055;
+  color: white;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  text-align: left;
+  padding-left: 9px;
+}
+
+.switch:focus {
+  outline: none;
+}
+
+.switch:hover,
+.switch:active {
+  background: #f8df00;
+  color: #292929;
+  border: #292929 0.1px solid;
+}
+
+.switch--inverse {
+  background: #f8df00;
+  color: #292929;
+  border: #292929 0.1px solid;
+}
+
+.switch--inverse:hover,
+.switch--inverse:active {
+  background: #f8df00;
+  color: #292929;
+}
+
+.switch:disabled,
+.switch:hover:disabled,
+.switch:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.switch--small {
+  font-size: 0.8rem;
+}
+
+.switch--middle {
+  font-size: 1rem;
+}
+
+.switch--big {
+  font-size: 1.5rem;
+}
+
+.fixed {
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+  .switch--white {
+    background-color: white;
+    color: black;
+  }
+}
